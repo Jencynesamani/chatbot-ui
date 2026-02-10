@@ -1,0 +1,94 @@
+/* ============================================================
+   ChatApp.css
+   Project: OpenAI_React_UI
+   Course: Designing Conversational AI
+
+   Purpose:
+   This CSS file styles the React-based chatbot UI.
+
+   It defines:
+   - Layout and alignment
+   - Spacing and readability
+   - Visual separation between input and response
+   - Card-style UI commonly used in real applications
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   Main Container Styling
+   ------------------------------------------------------------
+   This styles the outer card that holds the chatbot UI
+------------------------------------------------------------ */
+.container {
+  width: 450px;
+  /* Fixed width for consistent layout */
+
+  margin: 80px auto;
+  /* Centers container horizontally and adds top spacing */
+
+  padding: 25px;
+  /* Adds inner spacing for better readability */
+
+  border-radius: 12px;
+  /* Rounded corners for modern UI */
+
+  background: #ffffff;
+  /* White background for contrast */
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  /* Shadow effect to lift card from background */
+
+  font-family: Arial, sans-serif;
+  /* Clean and readable font */
+}
+
+
+/* ------------------------------------------------------------
+   Input Field Styling
+   ------------------------------------------------------------
+   Styles the text input where user types messages
+------------------------------------------------------------ */
+input {
+  width: 75%;
+  /* Input occupies 75% of container width */
+
+  padding: 10px;
+  /* Adds inner spacing for better typing comfort */
+}
+
+
+/* ------------------------------------------------------------
+   Button Styling
+   ------------------------------------------------------------
+   Styles the "Send" button
+------------------------------------------------------------ */
+button {
+  padding: 10px 15px;
+  /* Increases clickable area */
+
+  margin-left: 5px;
+  /* Adds space between input and button */
+
+  cursor: pointer;
+  /* Changes cursor to hand icon on hover */
+}
+
+
+/* ------------------------------------------------------------
+   Chatbot Response Box
+   ------------------------------------------------------------
+   Styles the area where chatbot response is displayed
+------------------------------------------------------------ */
+.chatbot {
+  margin-top: 20px;
+  /* Adds spacing above chatbot response */
+
+  padding: 15px;
+  /* Inner spacing for response text */
+
+  background: #eef6ff;
+  /* Light blue background to distinguish response */
+
+  border-radius: 8px;
+  /* Rounded corners for response box */
+}
